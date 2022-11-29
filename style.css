@@ -459,4 +459,42 @@ footer .navbar li{
         
     }
 
+}
+
+@media (max-width:500px){
+    
+    html {
+        font-size: 40%;
+
     }
+
+    .title h1{
+        font-family: 'Imperial Script';
+        text-align: center;
+        font-size: 5rem;
+    }
+
+    .subtitle h3{
+        font-family: 'Kalam';
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    .navbar ul li a{
+        color:#fff;
+        font-size: 1rem;
+        border-radius: 2rem;
+    }
+
+    .navbar ul li{
+        display: inline;
+        text-align: center;
+        align-items: center;
+        padding:0.5rem;
+        margin:1rem 0;
+        background:rgb(51, 51, 51);
+        border-radius: 2rem;
+        text-align: center;
+    }
+}
