@@ -80,15 +80,15 @@ header .centerstage {
     font-weight: 300;
 }
 
-header .navbar {
+.navbar {
     
 }
 
-header .navbar ul{
+.navbar ul{
     list-style: none;
     padding:1rem 3rem;
 }
-header .navbar ul li{
+.navbar ul li{
     display: inline;
     text-align: center;
     align-items: center;
@@ -99,11 +99,11 @@ header .navbar ul li{
     text-align: center;
 }
 
-header .navbar ul li:hover{
+.navbar ul li:hover{
     background:var(--pink);
 }
 
-header .navbar ul li a{
+.navbar ul li a{
     color:#fff;
     font-size: 1.5rem;
     border-radius: 5rem;
@@ -243,12 +243,14 @@ header .navbar ul li a{
 /* Banner End*/
 
 /* About Section Start*/
-.About {
+
+.about {
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    background-color: #FFA6D0;
 }
 
 .about-image {
@@ -279,7 +281,7 @@ header .navbar ul li a{
 .about-description p {
     text-align: justify;
     font-size: medium;
-    margin: 0rem 5rem 1rem 5rem;
+    margin: 0rem 3rem 1rem 3rem;
 }
 
 .about-description p::first-letter{
@@ -290,7 +292,123 @@ header .navbar ul li a{
 }
 /* About Section End*/
 
+/* Portfolio Section Start*/
 
+.portfolio h1 {
+    text-align: center;
+    font-size:xx-large;
+    margin: 5rem;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+/* Portfolio Section End*/
+
+/* Contact Section Start*/
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.info{
+    text-align: justify;
+    margin: 5rem;
+    margin-bottom: 0;
+}
+
+.contact-title {
+    font-size: xx-large;
+    margin-bottom: 5rem;
+}
+.contact-social {
+    display: inline-block;
+    margin: 2rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.form-container{
+    margin: 0 10rem;
+    background-color:#EE378D;
+    border-radius: 5rem;
+    
+
+}
+
+form {
+    padding:2rem;
+    margin:0 10rem 4rem;
+    
+}
+
+.box, .box-message {
+    width: 100%;
+    padding:1.5rem;
+    margin:1rem 0;
+    background:#FFA6D0;
+    border: .1rem solid var(--pink);
+    border-radius: 3rem;
+    color:#fff;
+    text-transform: none;
+    font-size: 1.7rem;
+    
+}
+
+form .box::placeholder{
+    text-transform: capitalize;
+}
+
+form .message{
+    height: 15rem;
+    resize: none;
+}
+
+.btn{
+    padding:.7rem 3rem;
+    background:#FFA6D0;
+    color:#fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+    border: .1rem solid var(--pink);
+    border-radius: 3rem;
+}
+
+.btn i{
+    padding:0 .5rem;
+    font-size: 1.8rem;
+}
+
+.btn:hover{
+    background:var(--pink);
+}
+
+/* Contact Section End*/
+
+/*Footer Start  */
+
+footer {
+    background-color: #EE378D;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5rem;
+}
+footer .navbar li{
+    margin: 0 3rem;
+}
+
+
+/*Footer End  */
 
 /* media queries  */
 
