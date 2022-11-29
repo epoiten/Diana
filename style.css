@@ -312,14 +312,17 @@ header .centerstage {
 
 /* Contact Section Start*/
 .contact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    display:flex;
+    flex-direction:row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .info{
+    flex: none;
+    order: 0;
+    flex-grow: 0;
     text-align: justify;
     margin: 5rem;
     margin-bottom: 0;
@@ -337,6 +340,10 @@ header .centerstage {
 }
 
 .form-container{
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
     background-color:#EE378D;
     border-radius: 5rem;
     width: 100%;
