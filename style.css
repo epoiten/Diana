@@ -83,7 +83,7 @@ header .centerstage {
 #menu{
     position: fixed;
     top:2rem; right:2rem;
-    background:#333;
+    background: var(--pink);
     color:#fff;
     cursor: pointer;
     font-size: 2.5rem;
@@ -91,6 +91,10 @@ header .centerstage {
     z-index: 1000;
     display: none;
 }
+
+#myLinks {
+  
+  }
 
 .navbar {
     
@@ -155,7 +159,7 @@ header .centerstage {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 60rem;
+  max-width: 80rem;
   position: relative;
   margin: auto;
 }
