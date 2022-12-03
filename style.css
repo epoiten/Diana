@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet');
 
 :root {
-    --pink: rgb(238, 55, 141);
+    --pink: #F7A4A4;
 }
 
 * {
@@ -29,7 +29,7 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-track{
-    background:#222;
+    background:rgb(77, 75, 75);
 }
 
 html::-webkit-scrollbar-thumb{
@@ -78,6 +78,18 @@ header .centerstage {
     text-align: center;
     font-size: 2.5rem;
     font-weight: 300;
+}
+
+#menu{
+    position: fixed;
+    top:2rem; right:2rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding:1rem 1.5rem;
+    z-index: 1000;
+    display: none;
 }
 
 .navbar {
@@ -234,7 +246,7 @@ header .centerstage {
 
 /* Banner Start */
 .banner {
-    background-color: #EE378D;
+    background-color: #FEBE8C;
     text-align: center;
     color: beige;
     padding: 12rem;
@@ -254,7 +266,7 @@ header .centerstage {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background-color: #FFA6D0;
+    background-color: #FFFBC1;
 }
 
 .about-image {
@@ -413,7 +425,7 @@ form .message{
 /*Footer Start  */
 
 footer {
-    background-color: #EE378D;
+    background-color: #B6E2A1;
     color: #f2f2f2;
     text-align: center;
     padding: 5rem;
@@ -422,6 +434,12 @@ footer .navbar li{
     margin: 0 3rem;
 }
 
+.top{
+    position: fixed;
+    bottom:7.5rem; right: 2rem;
+    z-index: 100;
+    display: none;
+}
 
 /*Footer End  */
 
@@ -441,8 +459,8 @@ footer .navbar li{
 
 @media (max-width:991px){
 
-   header{
-       left:-120%;
+   .navbar, .socialmedia{
+       display: none;
    }
 
    #menu{
@@ -455,6 +473,10 @@ footer .navbar li{
 
    body{
        padding:0;
+   }
+
+   header {
+    justify-content: flex-start;
    }
 
 }
