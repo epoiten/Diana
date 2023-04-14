@@ -48,13 +48,16 @@ header {
     left: 0;
     width: 100%;
     background-color: #c095eb;
-    opacity: 0.9;
+    opacity: 0.98;
     z-index: 999;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #610ab8;
 
 
 }
@@ -79,6 +82,8 @@ header .centerstage {
     font-family: 'Imperial Script';
     text-align: center;
     font-size: 5rem;
+    color: white;
+    font-weight: 200;
 }
 
 .subtitle h3{
@@ -157,10 +162,49 @@ header .centerstage {
     padding: auto;
 }
 
+/* Hero Section Start*/
+
+.hero{
+    background-image: url(images/Lady-in-lake.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    background-size: 100%;
+    padding: 8rem 0;
+}
+
+.hero-head{
+    font-size: 2rem;
+    font-style: italic;
+    width: 50%;
+    padding: 6rem 4rem 0;
+    color: rgb(30, 28, 28);
+}
+
+.hero-content{
+    font-size: 2rem;
+    padding: 4rem;
+    box-sizing: content-box;
+    width: 50%;
+    color: grey;
+}
+
+.hero-botton{
+    background-color:transparent;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(85, 85, 81);
+    padding: 12rem 0 10rem;
+    font-size: xx-large;
+}
+
+
+/* Hero Section End*/
+
 /* Home Section Start*/
 
 .home {
-    margin: 9rem 0 5rem;
+    margin: 8rem 0 5rem;
 }
 /* Slide Show*/
 * {box-sizing:border-box}
@@ -328,24 +372,30 @@ header .centerstage {
 
 /* Portfolio Section Start*/
 
+.portfolio{
+    text-align: center;
+    background-color: #3e0675;
+}
 .portfolio h1 {
     text-align: center;
     font-size:xx-large;
-    margin: 5rem;
+    padding: 5rem;
+    color: white;
 }
 
 .portfolio-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 1rem;
-    
+    padding: 0.5rem;
+    background-color:#8951c2
 }
 
-
-
-.portfolio-container div {
-    margin: 3rem;
+ .portfolio-container img{
+    margin: 1rem;
+    /* border-style: solid;
+    border-width: thin;
+    object-fit: contain; */
     
 }
 /* Portfolio Section End*/
