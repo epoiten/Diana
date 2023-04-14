@@ -170,22 +170,18 @@ header .centerstage {
     background-repeat: no-repeat;
     background-position: 50% 40%;
     background-size: 100%;
+    background-attachment: fixed;
     padding: 8rem 0;
     position: relative;
     height: 100%;
 }
 
-/* .hero-head{
-    font-size: 2rem;
+.hero-head{
+    font-size: 3rem;
     font-style: italic;
     width: 50%;
     padding: 6rem 4rem 0;
     color: rgb(30, 28, 28);
-} */
-.hero img{
-    object-fit: fill;
-    width: 100%;
-    height: auto;
 }
 
 .hero-content{
@@ -194,8 +190,6 @@ header .centerstage {
     box-sizing: content-box;
     width: 50%;
     color: grey;
-    position: absolute;
-    top: 10rem;
 }
 
 .hero-botton{
@@ -444,7 +438,7 @@ header .centerstage {
     flex: none;
     order: 1;
     flex-grow: 0;
-    background-color:#EE378D;
+    background-color:#c095eb;
     border-radius: 5rem;
     width: 100%;
     
@@ -461,12 +455,12 @@ form {
     width: 100%;
     padding:1.5rem;
     margin:1rem 0;
-    background:#FFA6D0;
+    background:#ffffff;
     border: .1rem solid var(--pink);
     border-radius: 3rem;
-    color:#fff;
+    color: rgb(0, 0, 0);
     text-transform: none;
-    font-size: 1.7rem;
+    font-size: 2rem;
     
 }
 
@@ -481,7 +475,7 @@ form .message{
 
 .btn{
     padding:.7rem 3rem;
-    background:#FFA6D0;
+    background:#190818;
     color:#fff;
     cursor: pointer;
     margin-top: 1rem;
@@ -505,7 +499,7 @@ form .message{
 /*Footer Start  */
 
 footer {
-    background-color: #B6E2A1;
+    background-color:#610ab8;
     color: #f2f2f2;
     text-align: center;
     padding: 5rem;
@@ -620,4 +614,5 @@ footer .navbar li{
         border-radius: 2rem;
         text-align: center;
     }
+    
 }
