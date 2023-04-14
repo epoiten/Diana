@@ -529,7 +529,7 @@ footer .navbar li{
 
 @media (max-width:991px){
 
-   .navbar, .socialmedia{
+    .socialmedia{
        display: none;
    }
 
@@ -537,9 +537,10 @@ footer .navbar li{
        display: block;
    }
 
-   header.toggle{
-    left:0%;
+   .socialmedia.toggle{
+    display: flex;
    }
+   
 
    body{
        padding:0;
